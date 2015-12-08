@@ -13,28 +13,42 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="/bower_components/material-design-lite/material.min.css">
-  <script src="/bower_components/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+  <script src="bower_components/material-design-lite/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body class="fullbleed vertical layout">
+<body class="fullbleed">
 <div class="header">
-      <div>ჰეადერის კონტენტი წავა აააააქ ჰაჰაჰაჰაჰჰა</div>
-  <div class="nav">
-  <!-- <a href="/"><span class="text">მთავარი</span></a> -->
-  <!-- Accent-colored raised button with ripple -->
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-  მთავარი
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-  ჩვენს შესახებ
-</button>
-  <!-- <a href="/about-us.html">ჩვენს შესახებ</a> -->
-  <a href="allcalc.html">კალკულატორები</a>
-  <a href="#">კონვერტერები</a>
-  <a href="#">რეგისტრაცია/ავტორიზაცია</a>
-  <a href="#">კონტაქტი</a>
+<!-- ლოგო -->
+<div class="logo"><img src="images/logo.png"></div>
+<!-- ახლადელი დრო -->
+<div class="rd-box">
+	<div class="rd-inner">
+		<h2 class="t-sq" id="current">
+			<a href="/worldclock/" title="The World Clock / Time Zones">თარიღი დრო</a>
+		</h2>
+		<a href="/worldclock/georgia/tskhinvali" id="clk_box" title="Current time in Tskhinvali">
+			<span id="clk_hm">02:28</span>
+			<span id="clk_s">:<span id="ij0">28</span></span>
+			<span id="clk_am"></span><span id="clk_line"> </span>
+		</a>
+		<p><span id="ij1">კვირის დღე</span><br><span id="ij2">რიცვი თვე 2015</span><br>
+	</div>
 </div>
+
+<!-- ნავიგაციააა აააააქ  -->
+  <div class="nav">
+  <!-- Accent-colored raised button with ripple -->
+  <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">მთავარი</button></a>
+  <a href="about-us.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">ჩვენს შესახებ</button></a>
+  <a href="allcalc.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">კალკულატორები</button></a>
+  <a href="converters.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">კონვერტერები</button></a>
+  <a href="newuser.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">რეგისტრაცია/ავტორიზაცია</button></a>
+  <a href="contact.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"> კონტაქტი</button></a>
+</div>
+<!-- აქამდეეეეეეეეეეეეეეეეეეეეე -->
+
+
 
 </div>
 <div class="container">

@@ -9,7 +9,7 @@
 
 
 
-<form action="" name="datetodate" method="GET">
+<form action="" name="" method="GET">
 	<p>
 		<input type="date" name="date1"/>
 	</p>
@@ -17,32 +17,25 @@
 		<input type="date" name="date2"/>
 	</p>
 	<p>
-		<label>
-			<input type="checkbox" name="includelast" value="yes">შეიცავდეს ბოლო დღეს კალკულატორში.
-		</label>
+		<input type="checkbox" name="includelast">შეიცავდეს ბოლო დღეს კალკულატორში.
 	</p>
 	<p>
 		<button type="submit">გამოთვლა</button>
 	</p>
 </form>
 <?php
-// თარიღის მიღება
 $date1=date_create($_GET["date1"]);
 $date2=date_create($_GET["date2"]);
-// გამოთვლა დღეების რაოდენობის
-$diff = $date1->diff($date2)->format("%r%a");
-// ბოლო დღის დამატება
-if(isset($_GET['includelast']) and $_GET['includelast']=='yes') {
-	$diff++;
-}
-// კონვერტაცია სხვადასხვა ერთეულებში
-$saatebi = $diff * '24';
-$wuTebi = $diff * '24' * '60';
-$wamebi = $diff * 24 * 60 * 60;
-echo "შეიცავს" . " " . $diff . " დღეს" . "</br>" . "</br>";
+$diff=date_diff($date1,$date2);
 
-echo "ალტერნატიული მონაცემები:" . '</br>' . 'საათები:' . $saatebi . '</br>' . 'წუთები: ' . $wuTebi . 'წუთი' . '</br>' . 'წამები: ' . $wamebi . 'წამი';
+echo "შეიცავს" . " " . $diff->format("%D დღეს") . '</br>';
+// print_r($diff);
 
+// $saatebi = $diff * 24;
+// $wuTebi = $saatebi * 60;
+// $wamebi = $wutebi * 60;
+
+// echo "ალტერნატიული მონაცემები:" . '</br>' . 'საათები:' . $saatebi . $wuTebi . $wamebi;
 
 ?>
 </body>

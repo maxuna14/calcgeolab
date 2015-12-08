@@ -1,0 +1,122 @@
+.header {
+	height: 250px;
+	width: 70%;
+	background-color: red;
+	position: relative;
+	margin: 0 auto;
+}
+.container {
+	position: relative;
+	height: 500px;
+	width: 70%;
+	background-color: green;
+	margin: 0 auto;
+}
+.footer {
+	position: relative;
+	height: 200px;
+	width: 70%;
+	margin: 0 auto;
+	background-color: blue;
+
+}
+#footer {
+	color: white;
+}
+.nav {
+	background-color: black;
+	height: 50px;
+	bottom: 20px;
+	position: absolute;
+	width: 810px;
+	left: 35%;
+}
+body {
+	background-image: url("http://localhost/calc/images/background.jpg");
+	background-color: #cccccc;
+}
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.logo:hover{
+	position: absolute;
+	top: 29px;
+	left: 29px;
+}
+.h2.t-sq a {
+	color: #000;
+	margin: 0 0 10px -10px;
+    line-height: 1;
+}
+.rd-box {
+    border: 1px solid #dfdbdb;
+    position: absolute;
+    margin-bottom: 10px;
+    right: 20px;
+    top: 5px;
+    font-size: 13px;
+    min-height: 140px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: #f2ecec 0 0 4px;
+}
+.rd-inner {
+	text-shadow: 0 1px rgba(255,255,255,0.9);
+    border: 2px solid #fff;
+    background: #fff;
+    padding: 15px 22px;
+    border-radius: 5px;
+}
+#clk_box{
+    background: url("http://c.tadst.com/gfx/spr_fp.png") no-repeat;
+    background-position: 0 0;
+    width: 107px;
+    height: 66px;
+    display: block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+}
+#clk_hm {
+    width: 67px;
+    font-size: 26px;
+    position: absolute;
+    left: 9px;
+    top: 17px;
+    font-weight: normal;
+    line-height: 26px;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    }
+#clk_s {
+    font-size: 15px;
+    position: absolute;
+    right: 11px;
+    top: 24px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.c-wc .t-sq:before, .t-sq.c-wc:before {
+    color: #209dd9;
+}
+h2 {
+
+    margin-top: 9px !important;
+    margin-bottom: 9px!important;
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h2.t-sq:before {
+    content: "▮";
+    font-family: "Lucida Sans Unicode","Lucida Grande","Sans-Serif";
+    font-size: 1.2em;
+    margin-right: 3px;
+}
