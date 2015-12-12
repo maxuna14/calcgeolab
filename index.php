@@ -25,14 +25,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <div class="rd-box">
 	<div class="rd-inner">
 		<h2 class="t-sq" id="current">
-			<a href="/worldclock/" title="The World Clock / Time Zones">თარიღი დრო</a>
-		</h2>
-		<a href="/worldclock/georgia/tskhinvali" id="clk_box" title="Current time in Tskhinvali">
-			<span id="clk_hm">02:28</span>
-			<span id="clk_s">:<span id="ij0">28</span></span>
-			<span id="clk_am"></span><span id="clk_line"> </span>
-		</a>
-		<p><span id="ij1">კვირის დღე</span><br><span id="ij2">რიცვი თვე 2015</span><br>
+      <a href="/worldclock/" title="The World Clock / Time Zones">თარიღი დრო</a>
+    </h2>
+    <a href="/worldclock/georgia/tskhinvali" id="clk_box" title="Current time in Tskhinvali">
+      <span id="clk_hm"><?php date_default_timezone_set("Asia/Tbilisi");
+echo date("G");?>:<?php date_default_timezone_set("Asia/Tbilisi");
+echo date("i");?></span>
+      <span id="clk_s">:<span id="ij0"><?php date_default_timezone_set("Asia/Tbilisi");
+echo date("s");?></span></span>
+      <span id="clk_am"></span><span id="clk_line"> </span>
+    </a>
+    <p><span id="ij1"><?php date_default_timezone_set("Asia/Tbilisi");
+echo date("l");?></span><br><span id="ij2"><?php date_default_timezone_set("Asia/Tbilisi");
+echo date("j");?> <?php date_default_timezone_set("Asia/Tbilisi");
+echo date("F");?> <?php date_default_timezone_set("Asia/Tbilisi");
+echo date("Y");?></span><br>
 	</div>
 </div>
 
