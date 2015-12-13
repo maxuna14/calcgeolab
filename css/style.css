@@ -1,7 +1,7 @@
 .header {
 	height: 250px;
 	width: 70%;
-	background-color: red;
+	background-color: #236568;
 	position: relative;
 	margin: 0 auto;
 }
@@ -9,7 +9,7 @@
 	position: relative;
 	height: 500px;
 	width: 70%;
-	background-color: green;
+	background-color: #1F9ED9;
 	margin: 0 auto;
 }
 .footer {
@@ -17,19 +17,21 @@
 	height: 200px;
 	width: 70%;
 	margin: 0 auto;
-	background-color: blue;
+	background-color: #ED7823;
 
 }
 #footer {
 	color: white;
 }
 .nav {
-	background-color: black;
+	right: -1%;
 	height: 50px;
 	bottom: 20px;
 	position: absolute;
 	width: 810px;
-	left: 35%;
+}
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab{
+	font-family: menufont;
 }
 body {
 	background-image: url("http://localhost/calc/images/background.jpg");
@@ -119,4 +121,13 @@ h2.t-sq:before {
     font-family: "Lucida Sans Unicode","Lucida Grande","Sans-Serif";
     font-size: 1.2em;
     margin-right: 3px;
+}
+@font-face {
+    font-family: menufont;
+    src: url('/fonts/bpg_quadrosquare_mtavruli_2009.eot');
+    src: url('/fonts/bpg_quadrosquare_mtavruli_2009.eot') format('embedded-opentype'),
+         url('/fonts/bpg_quadrosquare_mtavruli_2009.woff2') format('woff2'),
+         url('/fonts/bpg_quadrosquare_mtavruli_2009.woff') format('woff'),
+         url('/fonts/bpg_quadrosquare_mtavruli_2009.ttf') format('truetype'),
+         url('/fonts/bpg_quadrosquare_mtavruli_2009.svg#bpg_quadrosquare_mtavruli_2009') format('svg');
 }
