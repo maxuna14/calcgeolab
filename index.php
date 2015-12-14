@@ -16,6 +16,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
   <script src="bower_components/material-design-lite/material.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body class="fullbleed">
 <div class="header">
@@ -46,7 +47,7 @@ echo date("Y");?></span><br>
 <!-- ნავიგაციააა აააააქ  -->
   <div class="nav">
   <!-- Accent-colored raised button with ripple -->
-  <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">მთავარი</button></a>
+  <a href="/"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">მთავარი</button></a>
   <a href="about-us.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">ჩვენს შესახებ</button></a>
   <a href="allcalc.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">კალკულატორები</button></a>
   <a href="converters.php"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">კონვერტერები</button></a>
@@ -58,7 +59,7 @@ echo date("Y");?></span><br>
 
 
 </div>
-<div class="container">
+<div class="containermmm">
 	
 
       <div>კონტენტის კონტენტი წავა ააააააქ ჰაჰაჰაჰაჰჰაჰა</div>
@@ -70,7 +71,11 @@ echo date("Y");?></span><br>
 </div>
 <div class="footer">
 	<center><span id="footer">დიადი და დიდებული ავტორის ინფო წავა ააააააქ ჰაჰაჰაჰაჰაჰაჰ</span></center>
-
+<div class="row">
+  <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error natus maiores et placeat saepe modi soluta ipsa quisquam. Iste accusamus voluptatum dolorum odit aperiam facilis quam reprehenderit voluptatem praesentium eos.</div>
+  <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque hic veniam veritatis iure autem fugiat ut ipsum eaque, ratione quibusdam, ipsam minima, quidem incidunt. Impedit qui nam, consectetur amet dolore!</div>
+  <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid deleniti illo provident recusandae sint accusantium. Iusto explicabo nostrum, dolorem eius ipsa, molestias ea nisi deserunt temporibus eveniet alias repellendus suscipit.</div>
+</div>
 
 
 

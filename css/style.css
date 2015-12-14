@@ -5,7 +5,7 @@
 	position: relative;
 	margin: 0 auto;
 }
-.container {
+.containermmm {
 	position: relative;
 	height: 500px;
 	width: 70%;
@@ -24,7 +24,7 @@
 	color: white;
 }
 .nav {
-	right: -1%;
+	right: 1%;
 	height: 50px;
 	bottom: 20px;
 	position: absolute;
@@ -39,8 +39,8 @@ body {
 }
 .logo {
 	position: absolute;
-	top: 30px;
-	left: 30px;
+	top: 78px;
+	left: 55px;
 }
 .logo:hover{
 	position: absolute;
@@ -130,4 +130,11 @@ h2.t-sq:before {
          url('/fonts/bpg_quadrosquare_mtavruli_2009.woff') format('woff'),
          url('/fonts/bpg_quadrosquare_mtavruli_2009.ttf') format('truetype'),
          url('/fonts/bpg_quadrosquare_mtavruli_2009.svg#bpg_quadrosquare_mtavruli_2009') format('svg');
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
