@@ -42,11 +42,6 @@ body {
 	top: 78px;
 	left: 55px;
 }
-.logo:hover{
-	position: absolute;
-	top: 29px;
-	left: 29px;
-}
 .h2.t-sq a {
 	color: #000;
 	margin: 0 0 10px -10px;
