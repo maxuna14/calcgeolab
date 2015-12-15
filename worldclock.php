@@ -57,90 +57,393 @@ echo date("Y");?></span><br>
 </div>
 	
 
-    
+    <!-- კონტენტი და დრო -->
 <div class="konteineri">
-<center><h1>მსოფლიო დრო</h1></center>
+
 <div class="row">
-  <div class="col-sm-3">
+<center><h1>მსოფლიო დრო</h1></center>
+  <div class="col-sm-4">
   	<table class="table table-hover">
 	<tr>
 		<th>ქალაქი</th>
 		<th>დრო</th>
 	</tr>
 	<tr>
+  		<td>Abu Dhabi</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Algiers</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Amsterdam</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Andorra La Vella</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Ankara</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Ashgabat</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Astana</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Athens</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Baghdad</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Baku</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Bangkok</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Beijing</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Beirut</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Belgrade</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Belmopan</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Berlin</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Bishkek</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Brasilia</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Bratislava</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Brussels</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Bucharest</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Budapest</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Buenos Aires</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Cairo</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Caracas</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Copenhagen</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
   		<td>თბილისი</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>მოსკოვი</td>
+  		<td>Damascus</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>კიევი</td>
+  		<td>Doha</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Dublin</td>
   		<td>15:59</td>
 	</tr>
 </table>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
   	<table class="table table-hover">
 	<tr>
 		<th>ქალაქი</th>
 		<th>დრო</th>
 	</tr>
 	<tr>
-  		<td>თბილისი</td>
+  		<td>Dushanbe</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>მოსკოვი</td>
+  		<td>Guatemala</td>
+  		<td>15:59</td>
+	</tr>
+		<tr>
+  		<td>Havana</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>კიევი</td>
+  		<td>Helsinki</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Jerusalem</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Kabul</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Kathmandu</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Kingston</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Kuwait City</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Kyiv</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Lisbon</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Ljubljana</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>London</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Luxembourg</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Madrid</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Managua</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Mexico City</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Minsk</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Monaco</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Moscow</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>New Delhi</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Nicosia</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Oslo</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Ottawa</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Paris</td>
+  		<td>15:59</td>
+	</tr>
+	</tr>
+		<tr>
+  		<td>Podgorica</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Port Louis</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Port of Spain</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Port Vila</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Prague</td>
   		<td>15:59</td>
 	</tr>
 </table>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
   	<table class="table table-hover">
 	<tr>
 		<th>ქალაქი</th>
 		<th>დრო</th>
-	</tr>
+	
 	<tr>
-  		<td>თბილისი</td>
+  		<td>Rabat</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>მოსკოვი</td>
+  		<td>Reykjavik</td>
   		<td>15:59</td>
 	</tr>
 	<tr>
-  		<td>კიევი</td>
+  		<td>Riga</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Rome</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Saint George's</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>San Jose</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>San Marino</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Santiago</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Sarajevo</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Singapore</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Skopje</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Sofia</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Stanley</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Stockholm</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Tallinn</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Tashkent</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td><b>Tbilisi</b></td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Tehran</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Tokyo</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Tunis</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Vatican City</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Vienna</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Vientiane</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Vilnius</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Warsaw</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Wellington</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Washington DC</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Yerevan</td>
+  		<td>15:59</td>
+	</tr>
+	<tr>
+  		<td>Zagreb</td>
   		<td>15:59</td>
 	</tr>
 </table>
   </div>
-  <div class="col-sm-3">
-  	<table class="table table-hover">
-	<tr>
-		<th>ქალაქი</th>
-		<th>დრო</th>
-	</tr>
-	<tr>
-  		<td>თბილისი</td>
-  		<td>15:59</td>
-	</tr>
-	<tr>
-  		<td>მოსკოვი</td>
-  		<td>15:59</td>
-	</tr>
-	<tr>
-  		<td>კიევი</td>
-  		<td>15:59</td>
-	</tr>
-</table>
-  </div>
+ 
 </div>
 
 
